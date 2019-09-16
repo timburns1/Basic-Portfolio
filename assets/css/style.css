@@ -6,7 +6,7 @@
     border: 20px;
 }
 
-.container{
+.cor{
     background-color:#ffffff;
     border-color: #777777;
     border: 20px;
@@ -37,6 +37,12 @@ h1{
     font-weight: lighter;
     
     
+}
+
+a{
+    text-decoration-line: none;
+    text-decoration-color: #777777;
+    color: #777777;
 }
 
 h2{
@@ -70,3 +76,69 @@ p{
     padding: 20px;
     padding-bottom: 20px;
 }
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    float: right;
+    color:#777777;
+    float: right;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color:#777777;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right
+    
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color:#4aaaa5;
+    float: right;
+    
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+    margin: 2% auto;
+    
+  }
+
+  label{
+
+    color: #777777;
+    text-align: center;
+    float: left;
+
+  }
+
+
+  .box-set{
+      background: #cccccc;
+  }
+
+  .box{
+      background: #4aaaa5;
+      height: 200px;
+      width: 200px;
+      position: sticky
+
+  }

@@ -1,9 +1,13 @@
+body {
+  width: 100%;
+}
 
 #head{
   color:#ffffff;
   border-color:#777777;
   border-style: solid;
   border: 20px;
+  width: 22%;
 }
 
 section{
@@ -13,8 +17,6 @@ section{
 
 
 main{
-
-  width: 90vw;
   margin: 0 auto;
   padding: 80px 80px;
   min-height: calc( 150vh - 200px - 50px);
@@ -28,6 +30,7 @@ section{
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 50px;
+  height: 600px;
 }
 
 
@@ -73,8 +76,8 @@ a{
 
 h2{
   color:#4aaaa5;
-  padding-top:20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border: 20px;
   border-style: solid;
   border-color: #cccccc;
@@ -88,8 +91,8 @@ h2{
 
 img{
   float: left;
-  width: 10%;
-  height: 10%;
+  width: 150px;
+  height: 250px;
 }
 
 p{
@@ -117,7 +120,6 @@ input[type=text], select, textarea {
   resize: vertical;
   float: right;
   color:#ffffff;
-  float: right;
   background-color: #ffffff
 }
 
@@ -147,6 +149,7 @@ input[type=submit]:hover {
   padding: 20px;
   float: left;
   margin: 2% auto;
+  height: 75%;
   
 }
 
@@ -162,7 +165,7 @@ label{
 .box-set{
     background: #ffffff;
     display: block;
-    padding:20px;
+    padding:10px;
     float: left;
 
     
@@ -189,33 +192,37 @@ label{
   top: 30%;
   right: 2%;
   text-align: center;
-  float: left
+  float: left;
+  left: 20%
 
 }
 
 .box-3{
 
-  bottom: -20%;
+  bottom: 0%;
   right: 2%;
   text-align: center;
+  left: 20%
 
 }
 
 
 .box-4{
 
-  bottom: -20%;
+  bottom: 0%;
   left: 2%;
   text-align: center;
+  float: left;
 
 }
 
 
 .box-5{
 
-  bottom: -50%;
+  bottom: -40%;
   right: 2%;
   text-align: center;
+  left: 20%
 
 }
 

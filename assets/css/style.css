@@ -20,7 +20,8 @@ main{
   margin: 0 auto;
   padding: 80px 80px;
   min-height: calc( 150vh - 200px - 50px);
-  background-color: #dddddd
+  background-color: #dddddd;
+
   
 }
 
@@ -30,7 +31,8 @@ section{
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 50px;
-  height: 700px;
+  height: 750px;
+  width: 960px;
 }
 
 
@@ -139,7 +141,7 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
-  background-color:#4aaaa5;
+  background-color: cadetblue;
   float: right;
   
 }
